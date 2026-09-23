@@ -15,16 +15,38 @@
 nav {
     background-color: var(--primary-color);
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: var(--secondary-color);
     display: block;
     padding: 20px;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+header,
+footer,
+.grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 h1 {
     color: var(--primary-color);
+    border-bottom: 1px solid #333;
+    padding-bottom: 1rem;
+    margin-bottom: 1re;
 }
 
 img {
@@ -35,14 +57,16 @@ img {
     box-shadow: 0 0 30px var(--shadow-color);
 }
 
-main {
-    max-width: 840px;
+header main {
+    padding: 10px;
 }
 
 aside {
     width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 aside h2 {
