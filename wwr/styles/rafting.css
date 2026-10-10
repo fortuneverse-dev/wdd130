@@ -616,9 +616,10 @@ nav a:hover {
 
 .hero-content p {
     font-size: 1.1rem;
-    margin-bottom: 25px;
+    line-height: 1.6;
+    margin-bottom: 0 0 10px;
     color: #FFFFFF;
-    background-color: var(--primary-color);
+    background-color: transparent;
 }
 
 /* ---------- BUTTONS ---------- */
@@ -628,13 +629,10 @@ nav a:hover {
 
     background-color: var(--accent1-color);
     color: var(--primary-color);
-
     padding: 12px 25px;
-
     font-weight: bold;
-
     border-radius: 5px;
-
+    text-decoration: none;
     transition: 0.3s;
 }
 
