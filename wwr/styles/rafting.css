@@ -656,6 +656,8 @@ nav a:hover {
 .hero-content p {
     font-size: 1.1rem;
     margin-bottom: 25px;
+    color: #FFFFFF;
+    background-color: transparent;
 }
 
 /* ---------- BUTTONS ---------- */
