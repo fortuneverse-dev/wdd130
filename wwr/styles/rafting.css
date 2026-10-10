@@ -651,6 +651,7 @@ nav a:hover {
     font-family: var(--heading-font);
     font-size: 3rem;
     margin-bottom: 15px;
+    color: #FFFFFF;
 }
 
 .hero-content p {
