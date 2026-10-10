@@ -1001,17 +1001,12 @@ footer {
 
 .trips-hero-content {
     position: absolute;
-
     max-width: 650px;
     width: 90%;
-
     padding: 35px;
-
     text-align: center;
-
-    background-color: rgba(22, 58, 95, 0.88);
-    color: var(--white-color);
-
+    background-color: var(--primary-color);
+    color: #FFFFFF;
     border-radius: 10px;
 }
 
