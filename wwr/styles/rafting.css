@@ -599,7 +599,8 @@ nav a:hover {
     text-align: center;
 
     background-color: var(--primary-color);
-    color: #FFFFFF;
+    color: var(--white-color);
+
     border-radius: 10px;
 }
 
