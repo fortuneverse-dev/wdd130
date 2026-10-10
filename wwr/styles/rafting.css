@@ -609,8 +609,16 @@ nav a:hover {
 .hero-content h1 {
     font-family: var(--heading-font);
     font-size: 3rem;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     color: #FFFFFF;
+    background-color: var(--primary-color);
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+    background-color: var(--primary-color);
 }
 
 /* ---------- BUTTONS ---------- */
