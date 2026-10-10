@@ -135,13 +135,9 @@ p {
     position: absolute;
     top: 20px;
     left: 0;
-
     width: 100%;
-
     padding: 14px;
-
     text-align: center;
-
     background-color: rgba(22, 58, 95, 0.90);
     color: #FFFFFF;
 }
@@ -150,29 +146,21 @@ p {
 
 .hero article {
     position: absolute;
-
     bottom: 20px;
     left: 5%;
     right: 5%;
-
     min-height: 90px;
-
     padding: 12px 18px;
-
     background-color: rgba(22, 58, 95, 0.90);
     color: #FFFFFF;
 }
 
 .hero article img {
     float: right;
-
     width: 80px;
     height: 80px;
-
     object-fit: cover;
-
     margin-left: 15px;
-
     border: 3px solid var(--accent1-color);
 }
 
@@ -187,7 +175,6 @@ section {
 .history {
     margin: 30px 0;
     padding: 20px 30px;
-
     border: 1px solid var(--border-color);
     background-color: #FFFFFF;
 }
@@ -195,7 +182,6 @@ section {
 .history-content {
     display: grid;
     grid-template-columns: 1fr 160px 1fr;
-
     align-items: center;
     column-gap: 25px;
 }
@@ -219,21 +205,16 @@ section {
 
 .history-image h2 {
     margin: 0 0 8px 0;
-
     width: 160px;
-
     text-align: center;
-
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
 .history-image img {
     display: block;
-
     width: 160px;
     height: 100px;
-
     object-fit: cover;
 }
 
@@ -242,7 +223,6 @@ section {
 section:last-of-type {
     border: 1px solid var(--border-color);
     background-color: #FFFFFF;
-
     padding-bottom: 20px;
 }
 
@@ -251,7 +231,6 @@ section:last-of-type h2 {
     color: #FFFFFF;
     text-align: center;
     padding: 12px;
-
     margin-bottom: 25px;
 }
 
@@ -259,13 +238,9 @@ section:last-of-type h2 {
 
 .adventure-gallery {
     display: grid;
-
     grid-template-columns: repeat(5, 1fr);
-
     gap: 25px;
-
     width: 100%;
-
     padding: 0 20px;
 }
 
@@ -276,22 +251,17 @@ section:last-of-type h2 {
 
 .adventure-gallery img {
     display: block;
-
     width: 100%;
     max-width: 180px;
     height: 150px;
-
     object-fit: cover;
-
     margin: 0 auto 8px;
 }
 
 .adventure-gallery figcaption {
     color: var(--primary-color);
-
     font-size: 1rem;
     font-weight: normal;
-
     text-align: center;
 }
 
@@ -401,16 +371,11 @@ form button {
 
 footer {
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     align-items: center;
-
     margin-top: 30px;
     margin-bottom: 20px;
-
     padding: 30px;
-
     background-color: var(--primary-color);
     color: #FFFFFF;
 }
@@ -419,14 +384,10 @@ footer {
 
 footer .socialmedia {
     display: flex;
-
     flex-direction: row;
-
     justify-content: flex-end;
     align-items: center;
-
     gap: 15px;
-
     grid-column: 2;
     grid-row: 1;
 }
@@ -437,10 +398,8 @@ footer .socialmedia a {
 
 footer .socialmedia img {
     display: block;
-
     width: 25px;
     height: 25px;
-
     object-fit: contain;
 }
 
@@ -449,9 +408,7 @@ footer .socialmedia img {
 footer p {
     grid-column: 1;
     grid-row: 1;
-
     margin: 0;
-
     color: #FFFFFF;
 }
 
@@ -635,15 +592,11 @@ nav a:hover {
 
 .hero-content {
     position: absolute;
-
     max-width: 650px;
     padding: 35px;
-
     text-align: center;
-
-    background-color: rgba(22, 58, 95, 0.88);
-    color: var(--white-color);
-
+    background-color: var(--primary-color);
+    color: #FFFFFF;
     border-radius: 10px;
 }
 
